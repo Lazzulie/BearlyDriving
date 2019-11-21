@@ -9,7 +9,7 @@ a_Gyro(frc::I2C::kMXP)
 
 void Robot::RobotInit() 
 {
-
+    a_Gyro.Init();
 }
 
 void Robot::AutonomousInit() 
